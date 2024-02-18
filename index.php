@@ -2,22 +2,74 @@
 <html lang="en">
 	<head>
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
 		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
 	</head>
 <body>
-	<div class="col-md-3"></div>
-	<div class="col-md-6 well">
-		<h3 class="text-primary">PHP - Simple To Do List App</h3>
-		<hr style="border-top:1px dotted #ccc;"/>
-		<div class="col-md-2"></div>
-		<div class="col-md-8">
-			<center>
-				<form method="POST" class="form-inline" action="add_query.php">
-					<input type="text" class="form-control" name="task" required/>
-					<button class="btn btn-primary form-control" name="add">Add Task</button>
-				</form>
-			</center>
+
+<div class="container-fluid">
+	<div class="row header-box">
+		<div class="col-md-4 bg-primary">
 		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm">
+		One of three columns
+		</div>
+		<div class="col-sm">
+		One of three columns
+		</div>
+		<div class="col-sm">
+		One of three columns
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm">
+		One of three columns
+		</div>
+		<div class="col-sm">
+		One of three columns
+		</div>
+		<div class="col-sm">
+		One of three columns
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="header-box col-md-12">
+		<h3 class="header-title col-md-4 text-secondary text-center bg-primary">To Do List</h3>
+	</div>
+	<div class="col-md-12">
+		<img src="images/background_home.jpg" class="img-fluid col-md-12" alt="">
+	</div>
+	<div class="col-md-8">
+		<center>
+			<form method="POST" class="form-inline" action="add_query.php">
+				<input type="text" class="form-control" name="task" required/>
+				<button class="btn btn-primary form-control" name="add">Add Task</button>
+			</form>
+		</center>
+	</div>
 		<br /><br /><br />
 		<table class="table">
 			<thead>
