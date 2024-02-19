@@ -1,8 +1,26 @@
 .header-box {
-    background-color:red;
-    height: 85px;
+    background:linear-gradient(90deg, #3b536b, #594d9e);
+    height: 65px;
 }
 
 .header-title{
-    min-height: 85px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
+
+.image-box{
+    margin: 0;
+    padding: 0;
+}
+
+.list-input {
+    
+    
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
