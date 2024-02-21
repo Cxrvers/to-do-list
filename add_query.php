@@ -3,8 +3,8 @@
 	if(ISSET($_POST['add'])){
 		if($_POST['task'] != ""){
 			$task = $_POST['task'];
- 
-			$conn->query("INSERT INTO `task` VALUES('', '$task', '')");
+			$date = date('Y-m-d');
+			$conn->query("INSERT INTO `task` VALUES('', '1', '$task', '', '$date')");
 			header('location:index.php');
 		}
 	}
